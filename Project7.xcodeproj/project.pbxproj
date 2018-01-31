@@ -12,6 +12,8 @@
 		B00B151E20210D18000F17C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00B151C20210D18000F17C9 /* Main.storyboard */; };
 		B00B152020210D18000F17C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00B151F20210D18000F17C9 /* Assets.xcassets */; };
 		B00B152320210D18000F17C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00B152120210D18000F17C9 /* LaunchScreen.storyboard */; };
+		B00B152B20211377000F17C9 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00B152A20211377000F17C9 /* SwiftyJSON.swift */; };
+		B00B152D202120DB000F17C9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00B152C202120DB000F17C9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B00B151F20210D18000F17C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B00B152220210D18000F17C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00B152420210D18000F17C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00B152A20211377000F17C9 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		B00B152C202120DB000F17C9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		B00B151720210D18000F17C9 /* Project7 */ = {
 			isa = PBXGroup;
 			children = (
+				B00B152C202120DB000F17C9 /* DetailViewController.swift */,
+				B00B152A20211377000F17C9 /* SwiftyJSON.swift */,
 				B00B151820210D18000F17C9 /* AppDelegate.swift */,
 				B00B151A20210D18000F17C9 /* ViewController.swift */,
 				B00B151C20210D18000F17C9 /* Main.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00B152B20211377000F17C9 /* SwiftyJSON.swift in Sources */,
 				B00B151B20210D18000F17C9 /* ViewController.swift in Sources */,
 				B00B151920210D18000F17C9 /* AppDelegate.swift in Sources */,
+				B00B152D202120DB000F17C9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
